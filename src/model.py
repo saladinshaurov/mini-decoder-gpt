@@ -19,7 +19,7 @@ dropout = 0.2 # 20% of neurons dropped
 torch.manual_seed(42)
 
 # open, read, and close text file
-with open('/users/salah/documents/mini-gpt/data/mandem-chat-data.txt', 'r', 
+with open('/users/salah/documents/mini-gpt/data/tiny-shakespeare.txt', 'r', 
           encoding='utf-8') as file:
     text = file.read()
 
